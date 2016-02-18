@@ -1,10 +1,8 @@
-
 /*
  Door Lock - Automatized
-
  An Arduino control to open and close doors using step-motor and bluetooth.
  More in: https://github.com/raphaelbs/Porta
-
+ PlayStore app: https://play.google.com/store/apps/details?id=com.createlier.porta
  Created 15 Feb. 2016
  by Raphael Brandão
  */
@@ -34,7 +32,8 @@ void loop() {
   if(Serial.available()){
     char serialBuffer[8];
     // IMPORTART: setting the Arduino to read until a break-line is detected
-    int finalSize = Serial.readBytesUntil('\n', serialBuffer, 8);
+	char linebreak = '\n'; \\ Here is the line-break I talked about
+	int finalSize = Serial.readBytesUntil(linebreak , serialBuffer, 8); 
     serialBuffer[finalSize] = '\0';
     handler(serialBuffer);
   }
@@ -74,4 +73,3 @@ void handler(String in){
     stepsRequired = newSteps;
   }
 }
-
