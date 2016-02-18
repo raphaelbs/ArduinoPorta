@@ -1,10 +1,19 @@
 /*
  Door Lock - Automatized
  An Arduino control to open and close doors using step-motor and bluetooth.
- More in: https://github.com/raphaelbs/Porta
- PlayStore app: https://play.google.com/store/apps/details?id=com.createlier.porta
+ Instructables in:
+ 
+ PlayStore app: 
+ https://play.google.com/store/apps/details?id=com.createlier.porta
+ 
+ Youtube video:
+ https://youtu.be/Vc3NNrHip3I
+ 
+ Our facebook page:
+ https://www.facebook.com/createlier.brasil/?fref=ts
+ 
  Created 15 Feb. 2016
- by Raphael Brandão
+ by Raphael Brandão, a Createlier member
  */
 
 #include <Stepper.h>
