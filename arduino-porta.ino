@@ -1,7 +1,8 @@
 /*
  Door Lock - Automatized
  An Arduino control to open and close doors using step-motor and bluetooth.
- Instructables in:
+ Instructables:
+ http://www.instructables.com/id/Android-and-Arduino-With-Bluetooth-Using-Porta-App/
  
  PlayStore app: 
  https://play.google.com/store/apps/details?id=com.createlier.porta
