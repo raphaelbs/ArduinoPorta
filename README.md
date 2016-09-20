@@ -4,7 +4,6 @@ This is an Arduino sketch of Porta's easy implementation.
 
 - [Insctructables](http://www.instructables.com/id/Android-and-Arduino-With-Bluetooth-Using-Porta-App/)
 - [Youtube](https://youtu.be/Vc3NNrHip3I)
-- 
 
 ## Sketch
 In this demo we use an Arduino to open and close doors using step-motor and bluetooth.
